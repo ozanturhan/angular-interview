@@ -35,16 +35,16 @@
 * When clicking Remove button related line should be removed without any api call. (it should be removed in the state).
 * Must have ability to edit multiple lines.  
 * When the save button is clicked, the api requests for each line must be called at the same time (parallel). After this process, the view mode should be returned and the values returned as a result of the operation should be displayed on the screen in view mode.
-* A search input should be added to the screen and the search should be triggered when the number of letters exceeds 3 on the client side.
+* A search input should be placed to the screen and the search should be triggered on the client side when the number of letters exceeds three character.
 * A select box should be placed on this screen for sorting. (id, title and body)
 * If there is any line in edit mode, search and sort inputs should be disabled.
-* In edit mode, inputs must be mandatory.
+* Inputs must be mandatory in the edit mode.
 
 ### Post Detail
 <img src="mockups/post_detail.png" height="400px">
 
 * When opening this screen, the post detail api should be called and the information on the screen should be shown with the values returned from this api.
-* When the page is refreshed, there should be no errors in the working logic.
+* When the page is refreshed, the post detail api should be called again.
 
 ### Post Edit
 <img src="mockups/post_edit.png" height="400px">
