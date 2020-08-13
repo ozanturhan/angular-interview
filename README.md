@@ -10,6 +10,7 @@
 * Lazy Loading Modules
 * Unit Test With Jasmine (Jest is a big plus)
 * Resolver
+* Http interceptor
 
 
 ## General Descriptions
@@ -19,6 +20,7 @@
 * The users in users.json in the root directory should be shown hierarchically on the left side of the screen.
 * Layout structure should be designed to be fixed on the left.
 * Lazy load routing should be used.
+* When api requests are called, a loading gif should be shown on the screen using http interceptor.
 
 ## Screens
 
@@ -35,6 +37,7 @@
 * A search input should be added to the screen on the client side and the search should be triggered when the number of letters exceeds 3.
 * A select box should be placed to sort by id, title and body.
 * If there is any line in edit mode, search and sort inputs should be disabled.
+* In edit mode, inputs must be mandatory.
 
 ### Post Detail
 <img src="mockups/post_detail.png" height="400px">
@@ -49,6 +52,7 @@
 * An alert should be issued when trying to refresh the page after making a change in the edit mode.
 * If the page is refreshed without making changes, it must be opened in view mode.
 * Remove action should delete the relevant post through state.
+* Edit inputs must be mandatory.
 
 ### Post Remove Confirmation
 <img src="mockups/post_remove_confirmation.png" height="400px">
