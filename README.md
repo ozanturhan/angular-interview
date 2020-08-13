@@ -21,6 +21,7 @@
 * Layout structure should be designed to be fixed on the left.
 * Lazy load routing should be used.
 * When api requests are called, a loading gif should be shown on the screen using http interceptor.
+* Writing reusable, clean and maintainable code is very important.
 
 ## Screens
 
