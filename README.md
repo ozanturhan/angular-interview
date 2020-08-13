@@ -8,7 +8,7 @@
 ## Features to be Used
 * Reactive Forms
 * Lazy Loading Modules
-* Unit Test With Jasmine (Jest is a big plus)
+* Unit Test With Jasmine (Jest is a plus)
 * Resolver
 * Http interceptor
 
