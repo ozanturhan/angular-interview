@@ -29,14 +29,14 @@
 <img src="mockups/post_list.png" height="400px">
 
 * For each user selected from the hierarchy, the posts of the user should be taken through the user list API and kept on the state and listed on the screen.
-* If there is a post list on state for the relevant user, api request should not be called again, the list should be filled by state.
+* If there is a post list on state for the relevant user, api request should not be called again, the list should be filled from the state.
 * When mouse hovering over the lines, detail, edit and delete buttons should be displayed under the relevant line.
 * When clicking Detail button post detail screen should be opened with choosen post id.
 * When clicking Remove button related line should be removed without any api call. (it should be removed in the state).
 * Must have ability to edit multiple lines.  
-* When the save button is clicked, the api requests for each line must be made at the same time (parallel). After this process, the view mode should be returned and the values returned as a result of the operation should be displayed on the screen in view mode.
-* A search input should be added to the screen on the client side and the search should be triggered when the number of letters exceeds 3.
-* A select box should be placed to sort by id, title and body.
+* When the save button is clicked, the api requests for each line must be called at the same time (parallel). After this process, the view mode should be returned and the values returned as a result of the operation should be displayed on the screen in view mode.
+* A search input should be added to the screen and the search should be triggered when the number of letters exceeds 3 on the client side.
+* A select box should be placed on this screen for sorting. (id, title and body)
 * If there is any line in edit mode, search and sort inputs should be disabled.
 * In edit mode, inputs must be mandatory.
 
@@ -52,13 +52,13 @@
 * With the edit button on the post detail page, you should switch to view mode.
 * An alert should be issued when trying to refresh the page after making a change in the edit mode.
 * If the page is refreshed without making changes, it must be opened in view mode.
-* Remove action should delete the relevant post through state.
+* Remove action should delete the relevant post from the state.
 * Edit inputs must be mandatory.
 
 ### Post Remove Confirmation
 <img src="mockups/post_remove_confirmation.png" height="400px">
 
-* When trying to delete the post, modal should be shown on the screen.
+* When trying to delete the post, confirmation modal should be shown on the screen.
 * This modal should be displayed on all screens where the remove action is called.
 
 ## API List
