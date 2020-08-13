@@ -55,3 +55,57 @@
 
 * When trying to delete the post, modal should be shown on the screen.
 * This modal should be displayed on all screens where the remove action is called.
+
+## API List
+
+### Post List
+
+<strong>Url: </strong> https://jsonplaceholder.typicode.com/posts
+
+<strong>Url Parameter: </strong> userId
+
+<strong>Method: </strong> GET
+
+<strong>Response: </strong> 
+```
+[
+  {
+    userId: number,
+    id: number,
+    title: string,
+    body: string
+  }
+]
+```
+
+### Post Detail
+
+<strong>Url: </strong> https://jsonplaceholder.typicode.com/posts/{postId}
+
+<strong>Method: </strong> GET
+
+<strong>Response: </strong> 
+```
+ {
+   userId: number,
+   id: number,
+   title: string,
+   body: string
+ }
+```
+
+### Post Update
+
+<strong>Url: </strong> https://jsonplaceholder.typicode.com/posts/{postId}
+
+<strong>Method: </strong> PUT
+
+<strong>Response: </strong> 
+```
+ {
+   userId: number,
+   id: number,
+   title: string,
+   body: string
+ }
+```
