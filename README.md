@@ -18,9 +18,8 @@
 * A responsive design should be created.
 * You can design the ui as you wish. 
 * The users in users.json in the root directory should be shown hierarchically on the left side of the screen.
-* Layout structure should be designed to be fixed on the left.
 * Lazy load routing should be used.
-* When api requests are called, a loading gif should be shown on the screen using http interceptor.
+* When api requests are called, a loading gif should be shown on center of the screen. (http interceptor should be used for that).
 * Writing reusable, clean and maintainable code is very important.
 * The angular project written should be uploaded to your own github account.
 
