@@ -22,6 +22,7 @@
 * Lazy load routing should be used.
 * When api requests are called, a loading gif should be shown on the screen using http interceptor.
 * Writing reusable, clean and maintainable code is very important.
+* The angular project written should be uploaded to your own github account.
 
 ## Screens
 
