@@ -1,7 +1,7 @@
 # Frontend Project 
 
 ## Requirements
-* One of the modern front end libraries (Angular (Latest Version) is a big plus)
+* One of the modern frontend libraries (Angular is a big plus)
 * State Management Library (NGXS is a big plus for Angular)
 * RXJS (this is must for Angular)
 * Unit Test With Jest
