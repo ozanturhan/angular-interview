@@ -1,17 +1,10 @@
 # Angular Project 
 
 ## Requirements
-* Angular (Latest Version)
-* NGXS
-* RxJS
-
-## Features to be Used
-* Reactive Forms
-* Lazy Loading Modules
-* Unit Test With Jasmine (Jest is a plus)
-* Resolver
-* Http interceptor
-
+* One of the modern front end libraries (Angular (Latest Version) is a big plus)
+* State Management Library (NGXS is a big plus for Angular)
+* RXJS (this is must for Angular)
+* Unit Test With Jest
 
 ## General Descriptions
 
