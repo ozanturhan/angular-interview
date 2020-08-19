@@ -1,4 +1,4 @@
-# Angular Project 
+# Frontend Project 
 
 ## Requirements
 * One of the modern front end libraries (Angular (Latest Version) is a big plus)
