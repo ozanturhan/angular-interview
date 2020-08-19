@@ -11,10 +11,8 @@
 * A responsive design should be created.
 * You can design the ui as you wish. 
 * The users in users.json in the root directory should be shown hierarchically on the left side of the screen.
-* Lazy load routing should be used.
-* When api requests are called, a loading gif should be shown on center of the screen. (http interceptor should be used for that).
+* When api requests are called, a loading gif should be shown on center of the screen. (http interceptor should be used for that for Angular).
 * Writing reusable, clean and maintainable code is very important.
-* The angular project that written should be uploaded to your own github account.
 
 ## Screens
 
@@ -27,7 +25,7 @@
 * When clicking Detail button post detail screen should be opened with choosen post id.
 * When clicking Remove button related line should be removed without any api call. (it should be removed in the state).
 * Must have ability to edit multiple lines.  
-* When the save button is clicked, the api requests for each line must be called at the same time (parallel). After this process, the view mode should be returned and the values returned as a result of the operation should be displayed on the screen in view mode.
+* When the save button is clicked, the api requests for each line must be called at the same time (parallel).
 * A search input should be placed to the screen and the search should be triggered on the client side when the number of letters exceeds three character.
 * A select box should be placed on this screen for sorting. (id, title and body)
 * If there is any line in edit mode, search and sort inputs should be disabled.
